@@ -4,7 +4,7 @@ import {Octokit} from "https://esm.sh/octokit";
 import {config} from "./config.js";
 /*
 You have to create config.js code like below.
-config.js should be located same directory with this "script.js" file.
+config.js should be located to same directory with this "script.js" file.
 YOUR_GITHUB_PERSONAL_ACCESS_TOKEN have to be alternated as your token generated from "https://github.com/settings/tokens".
 Please be careful not to expose your token to others!
 
