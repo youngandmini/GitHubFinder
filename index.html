@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GitHub Finder</title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="styles/general.css">
+	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/footer.css">
+	<link rel="stylesheet" href="styles/input-section.css">
+	<link rel="stylesheet" href="styles/user-section.css">
+	<link rel="stylesheet" href="styles/repo-section.css">
+	
+	
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;500&family=Sunflower:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+	<header>
+		<div>GitHub Finder</div>
+	</header>
+	
+	<div id="input_section">
+		<div id="search_title">Search GitHub Users</div>
+		<div id="search_comment">Enter a username to search a user profile and repos</div>
+		<form class="search_form">
+			<input id="search_target_username" type="text" placeholder="username" autofocus>
+			<button id="search_button" type="button">검색</button>
+		</form>
+		<div id="user_not_found_message"></div>
+	</div>
+	
+	<div id="user_section">
+		<div id="username">Whose GitHub?</div>
+		<img id="user_img" src="assets/images/profile.png">
+		
+		<div class="user_info">
+			<div id="repos_box">Public Repos:&nbsp; <span id="repos"></span></div>
+			<div id="gists_box">Public Gists:&nbsp; <span id="gists"></span></div>
+			<div id="followers_box">Followers:&nbsp; <span id="followers"></span></div>
+			<div id="following_box">Following:&nbsp; <span id="following"></span></div>
+		</div>
+		
+		<div class="user_privacy">
+			<div>Company:&nbsp; <span id="company"></span></div>
+			<div>Website/Blog:&nbsp; <span id="blog"></span></div>
+			<div>Location:&nbsp; <span id="location"></span></div>
+			<div>Member Since:&nbsp; <span id="since"></span></div>
+		</div>
+		
+		<button id="user_url">view profile</button>
+		
+		<div id="grass_img_section">
+			User Contributions
+			<img id="grass_img" alt="User Contributions Chart">
+		</div>
+	</div>
+	
+	<div id="repo_section">
+		<div>Latest Repos</div>
+		<ul id="latest_repos">
+		
+		</ul>
+	</div>
+	
+	
+	<footer>
+		&copy; GitHub Finder by youngandmini
+	</footer>
+	
+	
+	<!-- 스크립트 공간 -->
+	<script type="module" src="scripts/script.js"></script>
+	<!-- 스크립트 공간 -->
+</body>
+
+
+</html>

@@ -1,0 +1,62 @@
+
+
+#input_section {
+
+    margin: 10px 10px 10px 10px;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+
+    padding: 10px 10px 10px 15px;
+}
+
+#search_title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#search_comment {
+    color: darkgray;
+    font-size: 20px;
+}
+
+.search_form {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#search_target_username {
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    flex-grow: 1;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+#search_button {
+    background-color: #4179e1;
+    color: white;
+    height: 35px;
+    font-size: 20px;
+    vertical-align: middle;
+
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+    cursor: pointer;
+}
+
+#user_not_found_message {
+    color: red;
+    display: none;
+    font-size: 30px;
+}

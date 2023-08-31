@@ -1,0 +1,149 @@
+
+#user_section {
+    margin: 10px 10px 10px 10px;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+
+    padding: 10px 10px 10px 12px;
+
+    height: auto;
+}
+
+#username {
+    margin: 5px 0 10px 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#user_img {
+    width: 230px;
+    height: 230px;
+    float: left;
+
+    margin: 10px 10px 10px 10px;
+
+    border-radius: 50%;
+}
+
+.user_info {
+    margin-left: 220px;
+    margin-top: 15px;
+    border: none;
+    /*border: 2px solid lightgray;*/
+
+    display: flex;
+
+}
+
+.user_info div {
+    width: 110px;
+    height: 30px;
+
+    border-radius: 5px;
+
+    margin-right: 20px;
+
+    color: white;
+
+    padding-left: 15px;
+    vertical-align: middle;
+
+    display : flex;
+    align-items : center;
+
+    font-size: 12px;
+}
+
+.user_info #repos_box {
+    background-color: #4179e1;
+}
+.user_info #gists_box {
+    background-color: #a4acb4;
+}
+.user_info #followers_box {
+    background-color: #3dab6f;
+}
+.user_info #following_box {
+    background-color: #5495ac;
+}
+
+
+.user_info div span {
+    vertical-align: middle;
+
+    align-self: center;
+}
+
+.user_privacy {
+
+    margin-left: 220px;
+    margin-top: 15px;
+    padding: 0 0 0 0;
+
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+.user_privacy div{
+
+    height: 40px;
+
+    display : flex;
+    align-items : center;
+
+    border-bottom: 2px solid lightgray;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-weight: bold;
+}
+
+#user_url {
+    float: left;
+
+    width: 250px;
+
+    background-color: #4179e1;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    vertical-align: middle;
+
+    border: none;
+    border-radius: 35px;
+    margin-right: 20px;
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+    cursor: pointer;
+}
+
+#grass_img_section {
+
+    border-top: 2px solid lightgray;
+    margin-top: 100px;
+
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+#grass_img_section img {
+    padding-top: 10px;
+    width: 100%;
+
+    font-weight: normal;
+    font-size: 10px;
+
+    /*visibility: hidden;*/
+    display: none;
+}

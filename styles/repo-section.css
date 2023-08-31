@@ -1,0 +1,71 @@
+
+
+#repo_section {
+    margin: 10px 10px 10px 10px;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+
+    padding: 10px 10px 10px 12px;
+
+    height: auto;
+}
+
+#repo_section div {
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#repo_section li {
+    display: flex;
+
+    flex-grow: 2;
+    justify-content: space-between;
+    margin-left: -30px;
+
+    border: 1px solid lightgray;
+    border-radius: 3px;
+
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 5px;
+}
+
+#repo_section li div{
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: normal;
+
+    color: blue;
+    cursor: pointer;
+}
+
+#repo_section li button{
+    flex-grow: 0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 13px;
+    font-weight: lighter;
+
+    margin-left: 10px;
+
+    padding: 4px 10px 4px 10px;
+}
+#repo_section li .stars {
+    background-color: #4179e1;
+    width: 100px;
+}
+#repo_section li .watchers {
+    background-color: #a4acb4;
+    width: 130px;
+}
+#repo_section li .forks {
+    background-color: #3dab6f;
+    width: 90px;
+}
+
+#repo_section li div:hover {
+
+    text-decoration: underline;
+}
