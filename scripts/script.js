@@ -116,6 +116,14 @@ function setUserInfo(username, user) {
         user.gists.textContent = result?.data.public_gists;
         user.followers.textContent = result?.data.followers;
         user.following.textContent = result?.data.following;
+
+
+        // replace userUrl to userUrlClone before addEventListener
+        // for remove eventListener of existing userUrl
+        const userUrlClone = user.userUrl.cloneNode(true);
+        user.userUrl.parentNode.replaceChild(userUrlClone, user.userUrl);
+        user.userUrl = userUrlClone;
+
         user.userUrl.addEventListener("click", (event) => {
             window.open(result?.data.html_url);
         });
@@ -123,7 +131,6 @@ function setUserInfo(username, user) {
         setGrassImg(username);
     });
 }
-
 
 function setUserRepos(username) {
     const userRepos = getUserRepos(username)
