@@ -15,7 +15,6 @@ export const config = {
 
 const PERSONAL_ACCESS_TOKEN = config.PERSONAL_ACCESS_TOKEN;
 
-
 class User {
     constructor() {
         this.username = document.getElementById("username");
