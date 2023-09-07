@@ -93,7 +93,7 @@ async function getUserRepos(username) {
 function setUserInfo(username, user) {
     const userInfo = getUserInfo(username);
     const userNotFoundMessage = document.getElementById("user_not_found_message");
-    // console.info(userInfo);
+    console.info(userInfo);
 
     userInfo.then(result => {
 
